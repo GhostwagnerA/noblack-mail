@@ -51,10 +51,10 @@ if __name__ == "__main__":
             f'{COLOR_CODE["CYAN"]}{COLOR_CODE["BOLD"]}[3] {COLOR_CODE["LI_G"]}'
             f'Проверить {COLOR_CODE["RED"]}IP{COLOR_CODE["LI_G"]} телефона.{COLOR_CODE["RESET"]}\n'
 
-            f'{COLOR_CODE["CYAN"]}{COLOR_CODE["BOLD"]}[4] {COLOR_CODE["LI_G"]}'
-            f'Проверить {COLOR_CODE["RED"]}Гос. номер{COLOR_CODE["LI_G"]} автомобиля.{COLOR_CODE["RESET"]}\n'
+            # f'{COLOR_CODE["CYAN"]}{COLOR_CODE["BOLD"]}[4] {COLOR_CODE["LI_G"]}'
+            # f'Проверить {COLOR_CODE["RED"]}Гос. номер{COLOR_CODE["LI_G"]} автомобиля.{COLOR_CODE["RESET"]}\n'
             
-            f'{COLOR_CODE["CYAN"]}{COLOR_CODE["BOLD"]}[5] {COLOR_CODE["LI_G"]}'
+            f'{COLOR_CODE["CYAN"]}{COLOR_CODE["BOLD"]}[4] {COLOR_CODE["LI_G"]}'
             f'Провести техническую проверку {COLOR_CODE["RED"]}на работоспосбность сервиса.{COLOR_CODE["LI_G"]}{COLOR_CODE["RESET"]}\n')
 
         try:
@@ -82,11 +82,11 @@ if __name__ == "__main__":
                 sleep(3)
 
             # Поиск по Гос. номеру
-            elif user_chooice == "4":
-                print_noblack_auto_text()
+            # elif user_chooice == "4":
+            #     print_noblack_auto_text()
 
             # Проверка тех. части
-            elif user_chooice == "5":
+            elif user_chooice == "4":
                 # Проверка на блокировку
                 BlockedCountries().print_ip_result()
                 
